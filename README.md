@@ -5,13 +5,13 @@ HarvestWise is a smart, AI-powered web application developed to assist farmers i
 
 Built using FastAPI for backend logic, and leveraging machine learning frameworks like scikit-learn and PyTorch, HarvestWise processes over 20 years of crop, weather, and soil data from Maharashtra’s 30 districts. This allows the system to deliver highly accurate insights across four main features:
 
-Crop Yield Prediction: Using models like Random Forest and Linear Regression, the system predicts total expected crop yield based on parameters like crop type, soil condition, district, area, and season.
+--> Crop Yield Prediction: Using models like Random Forest and Linear Regression, the system predicts total expected crop yield based on parameters like crop type, soil condition, district, area, and season.
 
-AI-based Crop Recommendation: A deep neural network (PyTorch-based) suggests the most suitable crops to grow based on real-time inputs like NPK values, temperature, humidity, pH, and rainfall.
+--> AI-based Crop Recommendation: A deep neural network (PyTorch-based) suggests the most suitable crops to grow based on real-time inputs like NPK values, temperature, humidity, pH, and rainfall.
 
-Rainfall Forecasting: HarvestWise estimates monthly rainfall patterns at the district level using historical meteorological data, helping farmers plan sowing and irrigation schedules better.
+--> Rainfall Forecasting: HarvestWise estimates monthly rainfall patterns at the district level using historical meteorological data, helping farmers plan sowing and irrigation schedules better.
 
-Fertilizer Guidance: The platform recommends optimal NPK levels and pH-balancing strategies tailored to the selected crop and current soil conditions.
+--> Fertilizer Guidance: The platform recommends optimal NPK levels and pH-balancing strategies tailored to the selected crop and current soil conditions.
 
 Planned features include a Crop Calendar, which will provide month-wise crop recommendations, and premium tools such as pest alerts, market insights, and multilingual (Marathi, Hindi, English) support. The frontend (in development using Next.js and Tailwind CSS) is being designed with a mobile-first, user-friendly approach for accessibility by non-technical users, especially small-scale farmers.
 
