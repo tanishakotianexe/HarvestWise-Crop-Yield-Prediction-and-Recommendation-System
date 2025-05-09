@@ -1,18 +1,36 @@
-# HarvestWise-Crop-Yield-Prediction-and-Recommendation-System
-HarvestWise is an AI-powered web app that helps Maharashtra farmers with crop yield prediction, crop recommendations, rainfall forecasting, and fertilizer guidance. It combines 20+ years of historical data with real-time weather inputs to support efficient and sustainable farming decisions.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-HarvestWise is a smart, AI-powered web application developed to assist farmers in Maharashtra by providing accurate predictions and recommendations for efficient and sustainable farming. The platform addresses common agricultural challenges such as unpredictable weather, inconsistent yields, and inefficient resource usage by combining historical data with real-time weather inputs.
+## Getting Started
 
-Built using FastAPI for backend logic, and leveraging machine learning frameworks like scikit-learn and PyTorch, HarvestWise processes over 20 years of crop, weather, and soil data from Maharashtra’s 30 districts. This allows the system to deliver highly accurate insights across four main features:
+First, run the development server:
 
---> Crop Yield Prediction: Using models like Random Forest and Linear Regression, the system predicts total expected crop yield based on parameters like crop type, soil condition, district, area, and season.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
---> AI-based Crop Recommendation: A deep neural network (PyTorch-based) suggests the most suitable crops to grow based on real-time inputs like NPK values, temperature, humidity, pH, and rainfall.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
---> Rainfall Forecasting: HarvestWise estimates monthly rainfall patterns at the district level using historical meteorological data, helping farmers plan sowing and irrigation schedules better.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
---> Fertilizer Guidance: The platform recommends optimal NPK levels and pH-balancing strategies tailored to the selected crop and current soil conditions.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Planned features include a Crop Calendar, which will provide month-wise crop recommendations, and premium tools such as pest alerts, market insights, and multilingual (Marathi, Hindi, English) support. The frontend (in development using Next.js and Tailwind CSS) is being designed with a mobile-first, user-friendly approach for accessibility by non-technical users, especially small-scale farmers.
+## Learn More
 
-By combining AI with real-time and historical data, HarvestWise shifts traditional farming practices toward precision agriculture. It enables better planning, reduces risks from climate variability, and promotes efficient resource usage—helping farmers improve productivity, income, and sustainability.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
